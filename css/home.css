@@ -1,5 +1,34 @@
-.nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+html {
+  font-family: 'Roboto', Times, serif;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #454d66;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #009975;
+}
+
+#affiche {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
