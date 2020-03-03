@@ -5,8 +5,16 @@ html {
 .nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 6.25px 0 6.25px 0;
   overflow: hidden;
+  background-color: #454d66;
+}
+
+.nav img {
+  float: left;
+  padding: 0px;
+  width: 5%;
+  height: 5%;
   background-color: #454d66;
 }
 
@@ -31,4 +39,18 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+strong {
+  color: #009975;
+}
+
+.maps {
+  text-align: center;
+}
+
+footer {
+  background-color: #454d66;
+  color: white;
+  text-align: center;
 }
