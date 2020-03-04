@@ -8,6 +8,7 @@ html {
   padding: 6.25px 0 6.25px 0;
   overflow: hidden;
   background-color: #454d66;
+  
 }
 
 .nav img {
@@ -52,5 +53,9 @@ strong {
 footer {
   background-color: #454d66;
   color: white;
+  text-align: center;
+}
+
+#intro{
   text-align: center;
 }
