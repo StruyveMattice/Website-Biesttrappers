@@ -1,2 +1,9 @@
 //Link voor kleurpallet
 https://colorhunt.co/palette/147387
+
+gaan we niet ook een xd-site eerst maken ;)
+
+eisen/aanpassingen
+- de logos van de hoofd sponsers moeten altijd zichtbaar zijn ip de website (is zo afgesproken met de sponsers)
+- er moet een link staan naar de vwb-site
+
