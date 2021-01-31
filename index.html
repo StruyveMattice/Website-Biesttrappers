@@ -3,48 +3,58 @@
   <head>
     <title>Home | De Biesttrappers</title>
     <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="msapplication-TileColor" content="#2b5797" />
-    <meta name="author" content="Mattice Struyve & Louis Debeerst" />
-    <meta name="msapplication-TileColor" content="#2d89ef">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Dit is de officiele clubpagina van De Biesttrappers"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!---<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />-->
+    
+    <!-- Links -->
+    <link href="//db.onlinewebfonts.com/c/aef726001a07788d4c639a835fa10360?family=FF+Tisa" rel="stylesheet" type="text/css"/> 
     <link rel="stylesheet" href="css/home.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon//apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon//favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png">
     <link rel="manifest" href="favicon//site.webmanifest">
     <link rel="mask-icon" href="favicon//safari-pinned-tab.svg" color="#5bbad5">
+    <script src="scripts/script.js" defer></script>
+    
+    <!-- Favicon -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="author" content="Mattice Struyve & Louis Debeerst" />
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff" />
+    
+    <!---<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />-->
+    
   </head>
 
   <body>
     <header>
-      <div class="nav">
-        <img src="img/Logo Biest.webp">
-        <span>
-        <ul>
-          
-          <li><a href="home.html">Home</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="benito.html">Benito Classic</a></li>
-          <li><a href="sponsors.html">Sponsors</a></li>
-          <li><a href="lokaal.html">Lokaal</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </span>
-      </div>
+      <nav class="navbar">
+        <div class="brand-title">De Biesttrappers</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lokaal.html">Clublokaal</a></li>
+            <li><a href="leden.html">Leden</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+            <li><a href="benito.html">Benito Classic</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-      <!-- <div id="affiche">
-        <img src="img/Benito Classic 2019.webp" alt="Affiche Benito Classic" />
-      </div> -->
       <div id="intro">
+
         <h2>Welkom op de officiële pagina van De Biesttrappers!</h2>
         <h3>Wie zijn wij?</h3>
         <p>De Biesttrappers is een club gelegen in Waregem. <br>
@@ -54,17 +64,19 @@
         We zijn verdeeld in 2 groepen, groep A(start om 08:00) en
         groep B(start om 08:30).<br>
         Ben jij een fietsliefhebber en zoek je nog een
-        club? <strong>Sluit je dan aan bij ons!<strong></strong>
+        club? <strong>Sluit je dan aan bij ons!</strong>
       </p>
-    </div>
-      <div class="maps">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20141.419352995377!2d3.424217226990237!3d50.87417144651486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x27392be421fe9ca2!2sDe%20Heerlijkheid!5e0!3m2!1snl!2sbe!4v1583259401800!5m2!1snl!2sbe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    </div>
+      
+      </div>
+     
 
     </main>
+
     <footer>
-      
-      <a href="https://www.facebook.com/profile.php?id=100010815043868&epa=SEARCH_BOX" target="Blank"><img src="img/facebook-icon_32x32.png" alt="facebook icon"></a>
+      <a href="https://www.facebook.com/profile.php?id=100010815043868&fref=ts" target="Blank">
+        <img id="facebook-image" src="img/facebook-icon_32x32.png" alt="facebook icon"></a>
+      <a href="mailto:vzw.debiesttrappers@telenet.be" target="Blank"> <img id="email-image" src="img/emailIcon.png" alt="email icon"> </a>
+
       <p>&copy; 2020 Mattice Struyve & Louis Debeerst</p>
     </footer>
   </body>

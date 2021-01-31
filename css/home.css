@@ -1,38 +1,112 @@
-html {
-  font-family: 'Roboto', Times, serif;
-}
 
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 6.25px 0 6.25px 0;
-  overflow: hidden;
+@import url(//db.onlinewebfonts.com/c/aef726001a07788d4c639a835fa10360?family=FF+Tisa);
+
+@font-face {font-family: "FF Tisa";
+  src: url("//db.onlinewebfonts.com/t/aef726001a07788d4c639a835fa10360.eot"); src: url("//db.onlinewebfonts.com/t/aef726001a07788d4c639a835fa10360.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/aef726001a07788d4c639a835fa10360.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/aef726001a07788d4c639a835fa10360.woff") format("woff"), url("//db.onlinewebfonts.com/t/aef726001a07788d4c639a835fa10360.ttf")
+  format("truetype"),
+  url("//db.onlinewebfonts.com/t/aef726001a07788d4c639a835fa10360.svg#FF Tisa")
+  format("svg"); } 
+
+
+/* Navbar */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #454d66;
-  
-}
-
-.nav img {
-  float: left;
-  padding: 0px;
-  width: 5%;
-  height: 5%;
-  background-color: #454d66;
-}
-
-.nav li {
-  float: left;
-}
-
-.nav a {
-  display: block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
-.nav a:hover {
-  background-color: #009975;
+.brand-title{
+  font-size: 1.5rem;
+  margin: .5rem;
+  text-decoration: solid;
+}
+
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li{
+  list-style: none;
+}
+
+.navbar-links li a{
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar-links li:hover{
+  background-color: #555;
+}
+
+.toggle-button{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar{
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px){
+  .toggle-button{
+    display: flex;
+  }
+
+  .navbar-links{
+    display: none;
+    width: 100%;
+  }
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links li{
+    text-align: center;
+  }
+
+  .navbar-links li a{
+    padding: .5rem, 1rem;
+  }
+
+  .navbar-links.active{
+    display: flex;
+  }
+
+}
+
+/* Overig */
+
+*{
+  box-sizing: border-box;
+  font-family: 'FF Tisa', Times, serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
 }
 
 #affiche {
@@ -54,6 +128,19 @@ footer {
   background-color: #454d66;
   color: white;
   text-align: center;
+  position:absolute;
+  width:100%;
+  bottom:0px;
+}
+
+#facebook-image{
+  padding-top: 8px;
+}
+
+#email-image{
+  padding-top: 8px;
+  width: 32px;
+  height: 32px;
 }
 
 #intro{
